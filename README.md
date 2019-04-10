@@ -88,6 +88,6 @@ cp namelist.hrldas.WS10_7layer_7tracer namelist.hrldas
 ---
 Note: this version does not output tracer vars in restart file; cannot read in tracer vars from restart file
 
-### _WT-Forcing.pdf_ explains how you can extract forcing data for one location from NLDAS;
-### _WT-modules-list.pdf_ explains the changes that I made in four source code files in order to have the water tracer running.
+#### _WT-Forcing.pdf_ explains how you can extract forcing data for one location from NLDAS;
+#### _WT-modules-list.pdf_ explains the changes that I made in four source code files in order to have the water tracer running.
 
