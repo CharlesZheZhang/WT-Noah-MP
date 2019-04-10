@@ -11,13 +11,14 @@
    - See [https://github.com/NCAR/hrldas-release/tree/master/HRLDAS](https://github.com/NCAR/hrldas-release/tree/master/HRLDAS)
 
 ***
- The following part will focus on running water tracer enabled version of Noah-MP (WT-Noah-MP):
+#### The following part will focus on running water tracer enabled version of Noah-MP (WT-Noah-MP):
 
-## (1) How to compile WT-Noah-MP?
+## A. How to compile WT-Noah-MP?
 You’ll need to replace a few modules with tracer enabled versions and then recompile.
 
-- Replace a couple of codes:
-1.  In "IO_code/" directory:
+- **1. Replace a couple of codes:**
+
+- In "IO_code/" directory:⋅⋅⋅
 
 ```sh
 cp module_NoahMP_hrldas_driver_wt.F module_NoahMP_hrldas_driver.F
