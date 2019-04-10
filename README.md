@@ -66,12 +66,13 @@ You’ll need to have the **_"namelist.hrldas"_** file in order to run the model
 - **Adjust the time period for simulation, input/output directories accordingly**
 - **Adjust the part for _“water tracer tagging configuration”_**
 
-
+```sh
 a) Specify “WATER_TRACER_OPTION” and “PARTIAL_MIXING_OPTION”
 
 b) Use “track_start” and “track_end” to specify the during for precipitation tagging
 
 c) The number of sublayers (see Figure 2 in [**Hu et al. 2018**](https://journals.ametsoc.org/doi/full/10.1175/JHM-D-17-0202.1), Journal of Hydrometeorology, for reference) in each soil layer can be specified by _“tracer_sublayer(x)”_
+```
 - **Copy this modified version to be _“namelist.hrldas”_**
 ```sh
 cp namelist.hrldas.WS10_7layer_7tracer namelist.hrldas
