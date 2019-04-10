@@ -3,6 +3,8 @@
 
 ###### Tracer code developed by by Huancui Hu ([Hu et al. 2018, Journal of Hydrometeorology](https://journals.ametsoc.org/doi/full/10.1175/JHM-D-17-0202.1))
 
+###### Download _wt-noah-mp-v20190318.zip_ for model source code.
+
 ###### Contact Email: huancuihu@gmail.com
 
 ---
@@ -85,3 +87,7 @@ cp namelist.hrldas.WS10_7layer_7tracer namelist.hrldas
 
 ---
 Note: this version does not output tracer vars in restart file; cannot read in tracer vars from restart file
+
+### _WT-Forcing.pdf_ explains how you can extract forcing data for one location from NLDAS;
+### _WT-modules-list.pdf_ explains the changes that I made in four source code files in order to have the water tracer running.
+
