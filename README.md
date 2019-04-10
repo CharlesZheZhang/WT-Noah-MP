@@ -16,10 +16,16 @@
 ## A. How to compile WT-Noah-MP?
 You’ll need to replace a few modules with tracer enabled versions and then recompile.
 
-- **1. Replace a couple of codes:**
+### 1. Replace a couple of codes:
 
 - In "IO_code/" directory:⋅⋅⋅
 
 ```sh
 cp module_NoahMP_hrldas_driver_wt.F module_NoahMP_hrldas_driver.F
 ```
+###### (the original version without tracer is module_NoahMP_hrldas_driver_original.F )
+
+```sh
+cp module_hrldas_netcdf_io_wt.F module_hrldas_netcdf_io.F
+```
+###### (the original version without tracer is in module_hrldas_netcdf_io_original.F )
