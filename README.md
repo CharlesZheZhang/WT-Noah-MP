@@ -78,5 +78,5 @@ cp namelist.hrldas.WS10_7layer_7tracer namelist.hrldas
 ```
 ###### (paralleled computation should use other commands to assign nodes)
 
-
+---
 Note: this version does not output tracer vars in restart file; cannot read in tracer vars from restart file
