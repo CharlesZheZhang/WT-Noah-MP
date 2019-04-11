@@ -1,11 +1,15 @@
 # WT-Noah-MP User Guide
-###### Water tracer enabled version of Noah-MP (based on Noah-MP version 4.0)
+>Water tracer enabled version of Noah-MP (based on Noah-MP version 4.0)
+>
+>Tracer code developed by by Huancui Hu ([Hu et al. 2018, Journal of Hydrometeorology](https://journals.ametsoc.org/doi/full/10.1175/JHM-D-17-0202.1))
+>
+>Contact Email: huancuihu@gmail.com
 
-###### Tracer code developed by by Huancui Hu ([Hu et al. 2018, Journal of Hydrometeorology](https://journals.ametsoc.org/doi/full/10.1175/JHM-D-17-0202.1))
+Download [**_wt-noah-mp-v20190318.zip_**](https://github.com/huancui/WT-Noah-MP/blob/master/wt-noah-mp-v20190318.zip) for model source code.
 
-###### Download _wt-noah-mp-v20190318.zip_ for model source code.
+[**_WT-Forcing.pdf_**](https://github.com/huancui/WT-Noah-MP/blob/master/WT-Forcing.pdf) explains how you can extract forcing data for one location from NLDAS;
+[**_WT-modules-list.pdf_**](https://github.com/huancui/WT-Noah-MP/blob/master/WT-modules-list.pdf) explains the changes that I made in four source code files in order to have the water tracer running.
 
-###### Contact Email: huancuihu@gmail.com
 
 ---
 ### Compile and run original Noah-MP (without tracer):
@@ -88,6 +92,4 @@ cp namelist.hrldas.WS10_7layer_7tracer namelist.hrldas
 ---
 Note: this version does not output tracer vars in restart file; cannot read in tracer vars from restart file
 
-#### _WT-Forcing.pdf_ explains how you can extract forcing data for one location from NLDAS;
-#### _WT-modules-list.pdf_ explains the changes that I made in four source code files in order to have the water tracer running.
 
