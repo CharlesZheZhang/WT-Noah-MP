@@ -7,7 +7,8 @@
 
 Download [**_wt-noah-mp-v20190318.zip_**](https://github.com/huancui/WT-Noah-MP/blob/master/wt-noah-mp-v20190318.zip) for model source code.
 
-[**_WT-Forcing.pdf_**](https://github.com/huancui/WT-Noah-MP/blob/master/WT-Forcing.pdf) explains how you can extract forcing data for one location from NLDAS;
+[**_WT-Forcing.pdf_**](https://github.com/huancui/WT-Noah-MP/blob/master/WT-Forcing.pdf) explains how you can extract forcing data for one location from NLDAS.
+
 [**_WT-modules-list.pdf_**](https://github.com/huancui/WT-Noah-MP/blob/master/WT-modules-list.pdf) explains the changes that I made in four source code files in order to have the water tracer running.
 
 
